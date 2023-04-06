@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "mongodb://127.0.0.1:27017/";
+const baseURL = "https://movie-info-sandy.vercel.app/api/v1";
 
 const publicClient = axios.create({
   baseURL,
